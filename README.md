@@ -26,7 +26,7 @@ Além de compor meu portfólio, o Grana AI também será desenvolvido como **Pro
 
 ## 🌐 Teste o Grana.ai
 
-🚀 **Aplicação online (Vercel):**
+🚀 **Aplicação online:**
 https://grana-ai-project.vercel.app/
 
 
