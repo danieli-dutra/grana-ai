@@ -1,7 +1,7 @@
 # Intent Recognition
 
 **Documento:** AI-003  
-**Versão:** 1.3  
+**Versão:** 1.0  
 **Última atualização:** 03/07/2026  
 **Status:** Implementado (com comportamento híbrido)
 
