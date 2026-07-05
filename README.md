@@ -188,7 +188,8 @@ Projeto desenvolvido por:
 
 - Daniel Ferreira
 - Danieli Dutra
-- *Equipe em definição*
+- Jordan Fischer
+- Robert Melo
 
 Como parte da formação em **Desenvolvimento Full Stack** da **+praTi / Codifica**.
 
