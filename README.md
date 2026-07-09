@@ -125,10 +125,24 @@ Banco de Dados Relacional
 ## 📂 Estrutura do Projeto
 
 ```text
-(em desenvolvimento)
+grana-ai/
+│
+├── docs/                         # Documentação oficial do projeto
+│   ├── product/                  # Produto, visão, personas, princípios e roadmap
+│   ├── ai/                       # Especificação funcional do agente financeiro
+│   ├── technical/                # Arquitetura, APIs, backend, banco de dados, integrações e infraestrutura
+│   └── testing/                  # Estratégia de testes, validações e bugs
+│
+├── frontend/                     # Aplicação React + Vite
+│   ├── assets/
+│   ├── public/
+│   ├── src/
+│   └── ...
+│
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
-
----
 
 ## 📌 Origem do Projeto
 
