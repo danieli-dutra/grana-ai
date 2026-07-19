@@ -1,0 +1,94 @@
+/* ==========================================================================
+   DESIGN SYSTEM
+   Global
+   ========================================================================== */
+
+/* ==========================================================================
+   Imports
+   ========================================================================== */
+
+@import "./foundations/reset.css";
+@import "./foundations/colors.css";
+@import "./foundations/typography.css";
+@import "./foundations/spacing.css";
+@import "./foundations/radius.css";
+@import "./foundations/shadows.css";
+@import "./foundations/motion.css";
+
+@import "./themes/light.css";
+@import "./themes/dark.css";
+
+/* ==========================================================================
+   Root
+   ========================================================================== */
+
+:root {
+  color-scheme: light dark;
+}
+
+/* ==========================================================================
+   Document
+   ========================================================================== */
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+body {
+  background: var(--background);
+  color: var(--text-primary);
+  transition:
+    background-color var(--transition-normal) var(--ease-default),
+    color var(--transition-normal) var(--ease-default);
+}
+
+/* ==========================================================================
+   Selection
+   ========================================================================== */
+
+::selection {
+  background: var(--brand);
+  color: var(--gray-0);
+}
+
+/* ==========================================================================
+   Scrollbar
+   ========================================================================== */
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: var(--radius-full);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
+}
+
+/* ==========================================================================
+   Focus
+   ========================================================================== */
+
+:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* ==========================================================================
+   Disabled
+   ========================================================================== */
+
+:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}

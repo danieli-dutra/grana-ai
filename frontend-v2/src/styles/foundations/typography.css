@@ -1,0 +1,147 @@
+/* ==========================================================================
+   DESIGN SYSTEM
+   Foundation · Typography
+   ========================================================================== */
+
+/* ==========================================================================
+   Font Families
+   ========================================================================== */
+
+:root {
+  --heading-family: "Satoshi", sans-serif;
+  --body-family: "Geist", sans-serif;
+  --mono-family: "JetBrains Mono", monospace;
+}
+
+/* ==========================================================================
+   Font Sizes
+   ========================================================================== */
+
+:root {
+  --font-caption: 0.75rem;    /* 12px */
+  --font-small: 0.875rem;     /* 14px */
+  --font-body: 1rem;          /* 16px */
+  --font-subtitle: 1.125rem;  /* 18px */
+  --font-title: 1.5rem;       /* 24px */
+  --font-heading: 2.25rem;    /* 36px */
+  --font-display: 3rem;       /* 48px */
+  --font-hero: 4rem;          /* 64px */
+}
+
+/* ==========================================================================
+   Font Weights
+   ========================================================================== */
+
+:root {
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+}
+
+/* ==========================================================================
+   Line Heights
+   ========================================================================== */
+
+:root {
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+}
+
+/* ==========================================================================
+   Letter Spacing
+   ========================================================================== */
+
+:root {
+  --letter-spacing-tight: -0.03em;
+  --letter-spacing-normal: 0;
+  --letter-spacing-wide: 0.02em;
+}
+
+/* ==========================================================================
+   Base Typography
+   ========================================================================== */
+
+body {
+  font-family: var(--body-family);
+  font-size: var(--font-body);
+  font-weight: var(--font-regular);
+  line-height: var(--line-height-normal);
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ==========================================================================
+   Headings
+   ========================================================================== */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-family);
+  font-weight: var(--font-bold);
+  line-height: var(--line-height-tight);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+h1 {
+  font-size: var(--font-hero);
+}
+
+h2 {
+  font-size: var(--font-display);
+}
+
+h3 {
+  font-size: var(--font-heading);
+}
+
+h4 {
+  font-size: var(--font-title);
+}
+
+h5 {
+  font-size: var(--font-subtitle);
+}
+
+h6 {
+  font-size: var(--font-body);
+}
+
+/* ==========================================================================
+   Text Elements
+   ========================================================================== */
+
+p,
+span,
+button,
+input,
+textarea,
+select,
+label {
+  font-family: var(--body-family);
+}
+
+small {
+  font-size: var(--font-small);
+}
+
+caption {
+  font-size: var(--font-caption);
+}
+
+/* ==========================================================================
+   Monospace
+   ========================================================================== */
+
+code,
+pre {
+  font-family: var(--mono-family);
+}

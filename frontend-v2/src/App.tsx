@@ -1,7 +1,7 @@
 function App() {
   return (
     <>
-      <h1>Grana.ai</h1>
+      <h1>Rex - Seu assistente financeiro</h1>
     </>
   );
 }
