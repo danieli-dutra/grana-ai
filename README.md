@@ -1,4 +1,4 @@
-# 💰 Grana AI - Assistente de Finanças
+# 💜 Junta.ai | Seu assistente financeiro para o dia a dia.
 
 <p align="center">
 
@@ -10,37 +10,83 @@
 
 </p>
 
-Sistema web full stack em desenvolvimento para gerenciamento financeiro pessoal, com foco na organização de despesas e receitas e preparado para evoluir com funcionalidades inteligentes voltadas à análise financeira.
+> **Um assistente financeiro conversacional desenvolvido para ajudar pessoas a construir uma relação mais consciente e tranquila com o próprio dinheiro através da Inteligência Artificial.**
 
 ---
 
-## 📖 Visão Geral
+# 📖 Visão Geral
 
-O **Grana AI** é uma aplicação web desenvolvida para auxiliar usuários no gerenciamento financeiro pessoal de forma simples, organizada e intuitiva.
+O **Junta.ai** é uma aplicação web full stack que utiliza Inteligência Artificial para transformar conversas em organização financeira.
 
-O projeto nasceu como um protótipo durante um bootcamp utilizando ferramentas de IA para prototipação (*Vibe Coding*) e atualmente está sendo reestruturado como uma aplicação full stack seguindo boas práticas de engenharia de software.
+Muito além do que registrar receitas e despesas, o projeto busca oferecer uma experiência onde o usuário conversa naturalmente sobre sua vida financeira enquanto a plataforma organiza informações, acompanha objetivos e apresenta insights relevantes de forma simples e contextualizada.
 
-Além de compor meu portfólio, o Grana AI também será desenvolvido como **Projeto Final da formação em Desenvolvimento Full Stack da +praTi / Codifica**.
+O projeto nasceu como um protótipo desenvolvido durante um bootcamp utilizando ferramentas de IA para prototipação (*Vibe Coding*) e atualmente está sendo reestruturado como uma aplicação full stack seguindo boas práticas de engenharia de software.
+
+Além de compor meu portfólio, o Junta.ai também está sendo desenvolvido como **Projeto Final da formação em Desenvolvimento Full Stack da +praTi / Codifica**.
 
 ---
 
-## 🌐 Teste o Grana.ai
+# ✨ Por que Junta.ai?
 
-🚀 **Aplicação online:**
+O projeto nasceu inicialmente com o nome **Grana AI**, refletindo sua primeira proposta como uma ferramenta de organização financeira.
+
+À medida que o produto evoluiu, ficou claro que sua missão era muito maior do que controlar gastos ou organizar planilhas.
+
+O objetivo passou a ser criar um assistente capaz de acompanhar o usuário em sua jornada financeira, oferecendo contexto, orientação e conversas que incentivem decisões mais conscientes.
+
+Foi dessa evolução que surgiu o nome **Junta.ai**.
+
+"Junta" faz parte do vocabulário brasileiro e carrega dois significados que representam a essência do produto:
+
+- 💰 **Juntar dinheiro**, incentivando hábitos financeiros mais saudáveis;
+- 🤝 **Estar junto**, transmitindo a ideia de um assistente que acompanha o usuário, em vez de apenas registrar informações.
+
+Mais do que um novo nome, Junta.ai representa uma nova visão de produto.
+
+---
+
+# 💜 Nossa Filosofia
+
+> O Junta.ai não existe para controlar as finanças do usuário.
+>
+> Ele existe para ajudá-lo a desenvolver uma relação mais consciente e tranquila com o próprio dinheiro.
+
+Acreditamos que conversar é mais natural do que preencher planilhas.
+
+Por isso, a Inteligência Artificial atua como uma parceira que organiza informações, oferece contexto e apoia decisões, sempre preservando a autonomia do usuário.
+
+---
+
+# 🎯 Princípios do Produto
+
+- Conversa antes de formulários.
+- Clareza antes da complexidade.
+- Inteligência que apoia, não substitui.
+- Transparência em todas as recomendações.
+- O usuário mantém sempre o controle.
+- A experiência deve reduzir a ansiedade financeira.
+
+---
+
+# 🌐 Experimente o Protótipo
+
+🚀 **Versão atual (protótipo):**
+
 https://grana-ai-project.vercel.app/
 
+> Esta versão representa a primeira fase do projeto e permanecerá disponível como registro da evolução do produto.
 
 ---
 
-## 🚧 Status do Projeto
+# 🚧 Status do Projeto
 
 🟡 **MVP em desenvolvimento**
 
-O projeto encontra-se em fase ativa de implementação e sua documentação será atualizada continuamente conforme novas funcionalidades forem concluídas.
+Atualmente o projeto encontra-se em processo de reestruturação arquitetural, evolução da experiência conversacional e implementação das funcionalidades do MVP.
 
 ---
 
-## 🛠️ Tecnologias
+# 🛠️ Tecnologias
 
 <p align="center">
 
@@ -48,67 +94,63 @@ O projeto encontra-se em fase ativa de implementação e sua documentação ser�
 
 </p>
 
-### Stack prevista
+## Frontend
 
-**Frontend**
 - React
-- TypeScript
+- TypeScript *(sujeito a ajustes conforme evolução do projeto)*
+- Vite
 
-**Backend**
+## Backend
+
 - Java
 - Spring Boot
 
-**Banco de Dados**
+## Banco de Dados
+
 - PostgreSQL ou MySQL
 
-**Autenticação**
+## Autenticação
+
 - Spring Security
 - JWT
 
-**Testes**
-- JUnit
+## Testes
+
 - Jest
+- JUnit
 
 ---
 
-## 🚀 Progresso atual
+# 🚀 Objetivos do MVP
 
-- Estrutura inicial do frontend em React
-- Estrutura inicial do backend em Spring Boot
-- Organização inicial da arquitetura do projeto
-- Configuração do ambiente de desenvolvimento
-- Definição da documentação técnica inicial
-
----
-
-## 🚧 Funcionalidades em desenvolvimento
-
-- CRUD de transações financeiras
-- Sistema de autenticação de usuários
-- Integração entre frontend e backend
-- Persistência em banco de dados relacional
-- Estrutura inicial da API REST
+- Conversação em linguagem natural.
+- Registro inteligente de receitas e despesas.
+- Organização automática das transações.
+- Acompanhamento de metas financeiras.
+- Dashboard simplificado.
+- Recomendações financeiras contextualizadas.
+- Histórico financeiro organizado.
 
 ---
 
-## 📈 Evolução do Projeto
+# 📈 Evolução do Projeto
 
 | Etapa | Status |
 |--------|--------|
 | 💡 Ideação | ✅ |
-| 🎨 Protótipo (Lovable) | ✅ |
-| 📚 Documentação inicial | ✅ |
-| 🌐 Primeiro Deploy (Vercel) | ✅ |
-| ⚙️ Reestruturação da arquitetura | 🚧 |
-| 💰 CRUD financeiro | ⏳ |
+| 🎨 Protótipo com IA | ✅ |
+| 📚 Definição da visão do produto | ✅ |
+| 📐 Arquitetura inicial | ✅ |
+| 🎨 Design System | 🚧 |
+| 💬 Experiência Conversacional | 🚧 |
+| ⚙️ Desenvolvimento Full Stack | 🚧 |
+| 💾 Persistência de Dados | ⏳ |
 | 🔐 Autenticação | ⏳ |
-| 💾 Banco de dados | ⏳ |
-| 🧪 Testes | ⏳ |
-| 🚀 Deploy de Produção | ⏳ |
+| 🚀 MVP | ⏳ |
 
 ---
 
-## 🏗️ Arquitetura (em definição)
+# 🏗️ Arquitetura
 
 ```text
 Frontend (React)
@@ -122,79 +164,98 @@ Banco de Dados Relacional
 
 ---
 
-## 📂 Estrutura do Projeto
+# 📂 Estrutura do Projeto
 
 ```text
-(em desenvolvimento)
+junta-ai/
+
+├── docs/
+│   ├── product/
+│   ├── ai/
+│   ├── technical/
+│   └── testing/
+│
+├── frontend/
+│
+├── README.md
+├── LICENSE
+└── .gitignore
 ```
 
 ---
 
-## 📌 Origem do Projeto
+# 📌 Origem do Projeto
 
-O Grana AI teve início como um protótipo desenvolvido durante um bootcamp utilizando ferramentas de IA para acelerar a fase de ideação e validação da interface.
+O Junta.ai teve início como um protótipo desenvolvido durante um bootcamp utilizando ferramentas de Inteligência Artificial para acelerar a fase de ideação e validação da interface.
 
-A partir de julho de 2026, o desenvolvimento passou a ser realizado integralmente em código, utilizando React, Spring Boot e banco de dados relacional, seguindo uma arquitetura tradicional para aplicações full stack.
+Com a evolução do projeto, a proposta foi ampliada para construir um assistente financeiro conversacional completo, desenvolvido integralmente em código utilizando React, Spring Boot e banco de dados relacional.
 
-O repositório original permanece disponível como registro da fase inicial de concepção do projeto:
+O repositório original permanece disponível como registro da fase inicial de concepção do produto.
 
-🔗 **Protótipo inicial:**  
-<https://github.com/danieli-dutra/grana-ai-finance-assistant>
+🔗 **Protótipo original**
 
----
-
-## 🧠 Decisões Técnicas
-
-As principais decisões arquiteturais adotadas até o momento incluem:
-
-- Separação entre frontend e backend
-- Arquitetura em camadas no backend
-- API REST para comunicação entre as aplicações
-- Banco de dados relacional para garantir consistência dos dados financeiros
-- Desenvolvimento incremental baseado em boas práticas de engenharia de software
+https://github.com/danieli-dutra/grana-ai-finance-assistant
 
 ---
 
-## 📋 Metodologia
+# 🧠 Decisões Arquiteturais
 
-O projeto é desenvolvido utilizando práticas inspiradas em metodologias ágeis, com planejamento incremental das funcionalidades.
+As principais decisões adotadas até o momento incluem:
 
+- Arquitetura Full Stack.
+- Separação entre frontend e backend.
+- API REST para comunicação entre as aplicações.
+- Banco de dados relacional.
+- Desenvolvimento incremental.
+- Documentação contínua.
+- Componentização da interface.
+- Design System próprio.
+- Experiência centrada em IA Conversacional.
+
+---
+
+# 📋 Metodologia
+
+O projeto é desenvolvido utilizando práticas inspiradas em metodologias ágeis.
+
+- Git Flow
 - Versionamento com Git e GitHub
-- Organização por tarefas e milestones
-- Desenvolvimento iterativo
-- Documentação contínua
-- Evolução incremental do MVP
+- Desenvolvimento incremental
+- Evolução contínua do MVP
+- Documentação viva
+- Organização por milestones
 
 ---
 
-## 📚 Documentação
+# 📚 Documentação
 
-A documentação técnica do projeto está sendo organizada na pasta **`/docs`** e será expandida ao longo do desenvolvimento.
+Toda a documentação oficial está sendo organizada na pasta **`/docs`**.
 
 | Documento | Descrição |
 |-----------|-----------|
-| 📍 `roadmap.md` | Planejamento e evolução das funcionalidades |
-| 🏗️ `architecture.md` | Arquitetura do sistema |
-| 📋 `requirements.md` | Requisitos funcionais e técnicos |
-| 📡 `api.md` | Documentação da API REST *(em desenvolvimento)* |
-| 🧠 `decisions.md` | Registro das principais decisões técnicas |
-| 📝 `changelog.md` | Histórico de evolução do projeto |
+| 📍 Roadmap | Evolução das funcionalidades |
+| 📐 Product | Visão, princípios e estratégia do produto |
+| 🤖 AI | Comportamento do assistente financeiro |
+| 🏗️ Technical | Arquitetura, APIs e infraestrutura |
+| 🧪 Testing | Estratégia de testes |
+| 📝 Changelog | Histórico de evolução |
 
 ---
 
-## 👥 Equipe
+# 👥 Equipe
 
 Projeto desenvolvido por:
 
 - Daniel Ferreira
-- Danieli Dutra
+- Danieli Dutra Braga
 - Jordan Fischer
 - Robert Melo
+- Thais Rodrigues
 
 Como parte da formação em **Desenvolvimento Full Stack** da **+praTi / Codifica**.
 
 ---
 
-## 📄 Licença
+# 📄 Licença
 
 Este projeto está licenciado sob a licença **MIT**.
