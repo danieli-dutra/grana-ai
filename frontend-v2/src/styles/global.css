@@ -3,9 +3,9 @@
    Global
    ========================================================================== */
 
-/* ==========================================================================
-   Imports
-   ========================================================================== */
+/* --------------------------------------------------------------------------
+   Foundation
+   -------------------------------------------------------------------------- */
 
 @import "./foundations/reset.css";
 @import "./foundations/colors.css";
@@ -15,6 +15,11 @@
 @import "./foundations/shadows.css";
 @import "./foundations/motion.css";
 
+/* --------------------------------------------------------------------------
+   Themes
+   -------------------------------------------------------------------------- */
+
+@import "./themes/theme.css";
 @import "./themes/light.css";
 @import "./themes/dark.css";
 
@@ -37,11 +42,14 @@ body,
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--text-primary);
+
   transition:
     background-color var(--transition-normal) var(--ease-default),
     color var(--transition-normal) var(--ease-default);
+
+  overflow-x: hidden;
 }
 
 /* ==========================================================================
@@ -49,8 +57,17 @@ body {
    ========================================================================== */
 
 ::selection {
-  background: var(--brand);
-  color: var(--gray-0);
+  background: var(--selection-bg);
+  color: var(--selection-text);
+}
+
+/* ==========================================================================
+   Placeholder
+   ========================================================================== */
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--text-muted);
 }
 
 /* ==========================================================================
@@ -69,10 +86,12 @@ body {
 ::-webkit-scrollbar-thumb {
   background: var(--border);
   border-radius: var(--radius-full);
+
+  transition: background-color var(--transition-fast);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--text-secondary);
+  background: var(--border-strong);
 }
 
 /* ==========================================================================
@@ -90,5 +109,29 @@ body {
 
 :disabled {
   cursor: not-allowed;
-  opacity: 0.6;
+  opacity: var(--opacity-disabled);
+}
+
+/* ==========================================================================
+   Accessibility
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+
+    scroll-behavior: auto !important;
+  }
+
 }

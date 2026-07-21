@@ -23,9 +23,10 @@
   --font-body: 1rem;          /* 16px */
   --font-subtitle: 1.125rem;  /* 18px */
   --font-title: 1.5rem;       /* 24px */
-  --font-heading: 2.25rem;    /* 36px */
-  --font-display: 3rem;       /* 48px */
-  --font-hero: 4rem;          /* 64px */
+  
+  --font-heading: clamp(2rem, 3vw, 2.25rem); /* 36px */
+  --font-display: clamp(2.5rem, 4vw, 3rem);  /* 48px */
+  --font-hero: clamp(3rem, 6vw, 4rem);       /* 64px */
 }
 
 /* ==========================================================================
@@ -48,6 +49,7 @@
   --line-height-tight: 1.2;
   --line-height-normal: 1.5;
   --line-height-relaxed: 1.7;
+  --line-height-loose: 1.9;
 }
 
 /* ==========================================================================
@@ -55,6 +57,7 @@
    ========================================================================== */
 
 :root {
+  --letter-spacing-extra-tight: -0.04em;
   --letter-spacing-tight: -0.03em;
   --letter-spacing-normal: 0;
   --letter-spacing-wide: 0.02em;
@@ -76,7 +79,7 @@ body {
 }
 
 /* ==========================================================================
-   Headings
+   Headings Styles
    ========================================================================== */
 
 h1,
@@ -84,30 +87,41 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+.text-hero,
+.text-display,
+.text-heading,
+.text-title,
+.text-subtitle {
   font-family: var(--heading-family);
   font-weight: var(--font-bold);
   line-height: var(--line-height-tight);
   letter-spacing: var(--letter-spacing-tight);
 }
 
-h1 {
+h1,
+.text-hero {
   font-size: var(--font-hero);
+  letter-spacing: var(--letter-spacing-extra-tight);
 }
 
-h2 {
+h2,
+.text-display {
   font-size: var(--font-display);
 }
 
-h3 {
+h3,
+.text-heading {
   font-size: var(--font-heading);
 }
 
-h4 {
+h4,
+.text-title {
   font-size: var(--font-title);
 }
 
-h5 {
+h5,
+.text-subtitle {
   font-size: var(--font-subtitle);
 }
 
@@ -116,10 +130,11 @@ h6 {
 }
 
 /* ==========================================================================
-   Text Elements
+   Body Text - Elements
    ========================================================================== */
 
 p,
+.text-body,
 span,
 button,
 input,
@@ -129,12 +144,58 @@ label {
   font-family: var(--body-family);
 }
 
-small {
+.text-body {
+  font-size: var(--font-body);
+}
+
+small,
+.text-small {
   font-size: var(--font-small);
 }
 
-caption {
+caption,
+.text-caption {
   font-size: var(--font-caption);
+}
+
+/* ==========================================================================
+   Font Weight Utilities
+   ========================================================================== */
+
+.font-light {
+  font-weight: var(--font-light);
+}
+
+.font-regular {
+  font-weight: var(--font-regular);
+}
+
+.font-medium {
+  font-weight: var(--font-medium);
+}
+
+.font-semibold {
+  font-weight: var(--font-semibold);
+}
+
+.font-bold {
+  font-weight: var(--font-bold);
+}
+
+/* ==========================================================================
+   Text Alignment Utilities
+   ========================================================================== */
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 /* ==========================================================================
@@ -142,6 +203,7 @@ caption {
    ========================================================================== */
 
 code,
-pre {
+pre,
+.font-mono {
   font-family: var(--mono-family);
 }

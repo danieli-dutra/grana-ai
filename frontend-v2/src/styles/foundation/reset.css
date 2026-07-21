@@ -28,7 +28,7 @@ body {
 }
 
 /* ==========================================================================
-   Typography
+   Spacing Reset
    ========================================================================== */
 
 h1,
@@ -40,13 +40,11 @@ h6,
 p,
 blockquote,
 figure,
+figcaption,
 dl,
-dd {
+dd,
+hr {
   margin: 0;
-}
-
-small {
-  font-size: inherit;
 }
 
 /* ==========================================================================
@@ -82,6 +80,11 @@ canvas {
   max-width: 100%;
 }
 
+img,
+picture {
+  height: auto;
+}
+
 /* ==========================================================================
    Forms
    ========================================================================== */
@@ -106,7 +109,8 @@ textarea {
 
 input,
 textarea,
-select {
+select,
+button {
   outline: none;
 }
 
@@ -117,4 +121,30 @@ select {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+/* ==========================================================================
+   Misc
+   ========================================================================== */
+
+small {
+  font-size: inherit;
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+legend {
+  padding: 0;
+}
+
+iframe {
+  border: 0;
+}
+
+[hidden] {
+  display: none !important;
 }

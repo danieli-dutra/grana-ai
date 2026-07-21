@@ -1,35 +1,10 @@
 /* ==========================================================================
    DESIGN SYSTEM
-   Theme · Dark
+   Theme
+   Semantic Tokens
    ========================================================================== */
 
-[data-theme="dark"] {
-
-  /* --------------------------------------------------------------------------
-     Background
-     -------------------------------------------------------------------------- */
-
-  --background: var(--gray-950);
-
-  --surface: var(--gray-900);
-  --surface-elevated: var(--gray-800);
-  --surface-hover: var(--gray-700);
-
-  /* --------------------------------------------------------------------------
-     Borders
-     -------------------------------------------------------------------------- */
-
-  --border: var(--gray-800);
-  --border-strong: var(--gray-700);
-
-  /* --------------------------------------------------------------------------
-     Typography
-     -------------------------------------------------------------------------- */
-
-  --text-primary: var(--gray-50);
-  --text-secondary: var(--gray-400);
-  --text-muted: var(--gray-500);
-  --text-inverse: var(--gray-950);
+:root {
 
   /* --------------------------------------------------------------------------
      Brand
@@ -44,24 +19,56 @@
   --brand-accent-active: var(--aqua-700);
 
   /* --------------------------------------------------------------------------
+     Background
+     -------------------------------------------------------------------------- */
+
+  --background: var(--gray-50);
+
+  --surface: var(--white);
+  --surface-elevated: var(--gray-100);
+
+  --surface-hover: var(--gray-200);
+
+  /* --------------------------------------------------------------------------
+     Border
+     -------------------------------------------------------------------------- */
+
+  --border: var(--gray-300);
+  --border-strong: var(--gray-400);
+
+  /* --------------------------------------------------------------------------
+     Typography
+     -------------------------------------------------------------------------- */
+
+  --text-primary: var(--gray-900);
+  --text-secondary: var(--gray-500);
+  --text-muted: var(--gray-400);
+
+  --text-inverse: var(--white);
+
+  /* --------------------------------------------------------------------------
      Status
      -------------------------------------------------------------------------- */
 
   --success: var(--green-500);
   --success-hover: var(--green-600);
-  --success-surface: var(--green-900);
+  --success-surface: var(--green-50);
+  --success-text: var(--green-700);
 
   --warning: var(--amber-500);
   --warning-hover: var(--amber-600);
-  --warning-surface: var(--amber-900);
+  --warning-surface: var(--amber-50);
+  --warning-text: var(--amber-700);
 
   --error: var(--red-500);
   --error-hover: var(--red-600);
-  --error-surface: var(--red-900);
+  --error-surface: var(--red-50);
+  --error-text: var(--red-700);
 
   --info: var(--blue-500);
   --info-hover: var(--blue-600);
-  --info-surface: var(--blue-900);
+  --info-surface: var(--blue-50);
+  --info-text: var(--blue-700);
 
   /* --------------------------------------------------------------------------
      Interactive
@@ -76,9 +83,9 @@
      Disabled
      -------------------------------------------------------------------------- */
 
-  --disabled-bg: var(--gray-800);
-  --disabled-border: var(--gray-700);
-  --disabled-text: var(--gray-600);
+  --disabled-bg: var(--gray-200);
+  --disabled-border: var(--gray-300);
+  --disabled-text: var(--gray-400);
 
   /* --------------------------------------------------------------------------
      Overlay
@@ -92,5 +99,20 @@
 
   --gradient-primary: var(--gradient-brand);
   --gradient-brand-purple: var(--gradient-purple);
+
+
+  /* --------------------------------------------------------------------------
+   Selection
+   -------------------------------------------------------------------------- */
+
+--selection-bg: var(--purple-200);
+--selection-text: var(--gray-950);
+
+/* --------------------------------------------------------------------------
+   Surface States
+   -------------------------------------------------------------------------- */
+
+--surface-active: var(--gray-100);
+--surface-selected: var(--purple-50);
 
 }

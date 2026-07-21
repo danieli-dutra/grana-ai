@@ -1,0 +1,43 @@
+/* ==========================================================================
+   DESIGN SYSTEM
+   Foundation · Motion
+   ========================================================================== */
+
+:root {
+
+  /* --------------------------------------------------------------------------
+     Transition Duration
+     -------------------------------------------------------------------------- */
+
+  --transition-instant: 75ms;
+  --transition-fast: 150ms;
+  --transition-normal: 250ms;
+  --transition-slow: 350ms;
+
+  --transition-none: none;
+
+  /* --------------------------------------------------------------------------
+     Transition Timing
+     -------------------------------------------------------------------------- */
+
+  --ease-linear: linear;
+
+  --ease-in: ease-in;
+  --ease-out: ease-out;
+  --ease-in-out: ease-in-out;
+
+  --ease-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-default: var(--ease-standard);
+
+  --ease-emphasized: cubic-bezier(0.2, 0.8, 0.2, 1);
+
+/* --------------------------------------------------------------------------
+   Animation Duration
+   -------------------------------------------------------------------------- */
+
+--animation-fast: 200ms;
+--animation-normal: 400ms;
+--animation-slow: 600ms;
+
+}
+
