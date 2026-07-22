@@ -1,12 +1,16 @@
-import { Logo } from "@/components/Logo";
-import styles from "./Header.module.css";
+import "./Header.css";
+import Logo from "../../logos/logo-junta-ai.svg";
 
 export function Header() {
   return (
-    <header className={styles.header}>
-      <Logo width={170} />
+    <header className="header">
+      <img
+        src={Logo}
+        alt="Junta.ai"
+        width={170}
+      />
 
-      <div className={styles.actions}>
+      <div className="actions">
         {/* ThemeToggle virá aqui */}
       </div>
     </header>
